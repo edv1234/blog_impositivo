@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+  <form method="get" action="{% url 'home' %}">
+    <input type="text" name="q" placeholder="Buscar..." value="{{ request.GET.q }}">
+    <button type="submit">Buscar</button>
+  </form>
+
+  <h1>Bienvenido a Mi Blog</h1>
+  <p>Este es el inicio de tu aplicación web.</p>
+
+  <h2>Entradas recientes</h2>
+  <ul>
+      {% for post in posts %}
+        <li>
+          <h3><a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a></h3>
+          <p>{{ post.content|truncatewords:30 }}</p>
+          <small>
+            Publicado el {{ post.created_at|date:"d/m/Y H:i" }}<br>
+            Categoría: {{ post.category }}
+          </small>
+        </li>
+      {% empty %}
+        <li>No hay entradas que coincidan con tu búsqueda.</li>
+      {% endfor %}
+  </ul>
+
+  <div class="top-posts">
+    <h3>📈 Más leídos</h3>
+    <ul>
+      {% for post in top_posts %}
+        <li>
+          <a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a>
+          <small>({{ post.views }} vistas)</small>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endblock %}
+

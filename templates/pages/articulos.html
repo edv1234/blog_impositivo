@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>📚 Artículos de venta</h2>
+  <ul class="list-group">
+    {% for libro in libros %}
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        {{ libro.titulo }}
+        <span class="badge bg-success">{{ libro.precio }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}

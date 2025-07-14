@@ -1,0 +1,236 @@
+/* 🎨 Tipografía moderna desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e5e5e5;   /* fondo gris suave */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🧭 Navbar con texto negro y más grande */
+.navbar {
+  background-color: #f0f0f0 !important; /* gris más claro para contraste */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.navbar .nav-link {
+  color: #111 !important;
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+
+.navbar .nav-link:hover {
+  color: #0055aa !important;
+  text-decoration: underline;
+}
+
+/* 🖼️ Área principal */
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* 🔗 Enlaces generales */
+a {
+  color: #0055aa;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #003366;
+  text-decoration: underline;
+}
+
+/* 🏷️ Titulares */
+h1, h2, h3 {
+  color: #003366;
+}
+
+/* 📋 Formularios */
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0055aa;
+}
+
+/* 📌 Listas */
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+ul li {
+  background-color: #f9f9f9;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* ⭐ Sección destacados */
+.top-posts {
+  margin-top: 40px;
+  padding: 15px;
+  background-color: #f0f4fa;
+  border-left: 4px solid #003366;
+  border-radius: 6px;
+}
+
+.top-posts a,
+ul li a,
+main a {
+  color: #0055aa;
+  font-weight: bold;
+}
+
+.top-posts a:hover,
+ul li a:hover,
+main a:hover {
+  color: #003366;
+  text-decoration: underline;
+}
+
+/* 🎨 Tipografía moderna desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e5e5e5;   /* fondo gris suave */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🧭 Navbar con texto negro y más grande */
+.navbar {
+  background-color: #f0f0f0 !important; /* gris más claro para contraste */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.navbar .nav-link {
+  color: #111 !important;
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+
+.navbar .nav-link:hover {
+  color: #0055aa !important;
+  text-decoration: underline;
+}
+
+/* 🖼️ Área principal */
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* 🔗 Enlaces generales */
+a {
+  color: #0055aa;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #003366;
+  text-decoration: underline;
+}
+
+/* 🏷️ Titulares */
+h1, h2, h3 {
+  color: #003366;
+}
+
+/* 📋 Formularios */
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0055aa;
+}
+
+/* 📌 Listas */
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+ul li {
+  background-color: #f9f9f9;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* ⭐ Sección destacados */
+.top-posts {
+  margin-top: 40px;
+  padding: 15px;
+  background-color: #f0f4fa;
+  border-left: 4px solid #003366;
+  border-radius: 6px;
+}
+
+.top-posts a,
+ul li a,
+main a {
+  color: #0055aa;
+  font-weight: bold;
+}
+
+.top-posts a:hover,
+ul li a:hover,
+main a:hover {
+  color: #003366;
+  text-decoration: underline;
+}
+
+.navbar-brand {
+  color: #0055aa !important;     /* azul intenso */
+  font-size: 1.8rem !important;   /* tamaño más grande */
+  font-weight: 700;
+  text-shadow: none !important;
+}
